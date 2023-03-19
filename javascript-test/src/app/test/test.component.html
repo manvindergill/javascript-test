@@ -1,0 +1,33 @@
+<nav aria-label="breadcrumb">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item active" aria-current="page">
+            <button type="button" class="submitbutton" routerLink="">Home Page</button>
+            </li>
+    </ol>
+</nav>
+
+<div class="heading"><b>Please sumbit all the answer to clear the this test</b></div><br />
+<form [formGroup]="form" (ngSubmit)="submitTest()">
+
+    <div class="row gx-5" *ngFor="let q of questionsArray; let i=index">
+        <div class="col">
+            <div class="p-3 border bg-light">{{i+1}}. {{q.question}}
+                <div class="code-snippet" *ngIf="q.codeSnippet">
+                    {{q.codeSnippet}}
+                </div>
+            </div>
+
+            <ng-container class="form-group" *ngFor="let option of q.options">
+                <div class="margin-left">
+                    <input type="radio" value="{{option}}" name="{{q._id}}" formControlName="{{q._id}}" />
+                    <span class="margin-left"></span>
+                    <label for="{{option}}">{{option}}</label><br />
+                </div>
+            </ng-container>
+            <div class="margin-bottom"></div>
+        </div>
+    </div>
+
+    <button type="submit" class="submitbutton">Submit</button>
+
+</form>

@@ -1,0 +1,19 @@
+h1{
+    color: aliceblue;
+    text-align: center;
+    margin-top: 25%;
+}
+.card{
+    margin-left: 410px;
+    color: green;
+    font-weight: bold;
+}
+.card-title{
+    padding-left: 96px;
+}
+p{
+    padding-left: 50px;
+}
+.btn-success{
+    margin-left: 110px;
+}

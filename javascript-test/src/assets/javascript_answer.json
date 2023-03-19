@@ -1,0 +1,23 @@
+{
+    "data":[{
+      "_id": "Q_1",
+      "answer":"all of the above."
+    },
+    {
+        "_id": "Q_2",
+        "answer":"JavaScript is a scripting language used to make the website interactive"
+    },
+    {
+      "_id": "Q_3",
+      "answer":"It is an ordered list of values"
+    },
+    {
+        "_id": "Q_4",
+        "answer":"All of the mentioned"
+    },
+    {
+      "_id": "Q_5",
+      "answer":"Location"
+    }
+    ]
+  }

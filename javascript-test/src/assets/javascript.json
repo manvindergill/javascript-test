@@ -1,0 +1,53 @@
+{
+    "data":[{
+      "_id": "Q_1",
+      "question":"Which of the following are not server-side Javascript objects ?",
+      "options":[
+        "Date",
+        "File Upload",
+        "Function",
+        "all of the above."
+      ]
+    },
+    {
+        "_id": "Q_2",
+        "question":"What is JavaScript ?",
+        "options":[
+          " JavaScript is a scripting language used to make the website interactive",
+          "JavaScript is an assembly language used to make the website interactive",
+          " JavaScript is a compiled language used to make the website interactive",
+          "None of the mentioned"
+        ]
+    },
+    {
+        "_id": "Q_3",
+        "question":" Arrays in JavaScript are defined by which of the following statements ?",
+        "options":[
+          "It is an ordered list of values",
+          "It is an ordered list of objects",
+          "It is an ordered list of string",
+          "It is an ordered list of functions"
+        ]
+      },
+      {
+          "_id": "Q_4",
+          "question":"Which of the following is not javascript data types ?",
+          "options":[
+            "Null type",
+            "Undefined type",
+            "Number type",
+            "All of the mentioned"
+          ]
+      },
+      {
+        "_id": "Q_5",
+        "question":"Which of the following object is the main entry point to all client-side JavaScript features and APIs ?",
+        "options":[
+          "Position",
+          "Window",
+          "Standard",
+          "Location"
+        ]
+      }
+          ]
+}
